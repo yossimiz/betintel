@@ -20,6 +20,7 @@
     <nav class="topnav" aria-label="Primary navigation">
       <a class="active" href="#rankings">Rankings</a>
       <a href="#changes">Changes</a>
+      <a href="#compare">Compare</a>
       <a href="methodology.html">Methodology</a>
       <a href="about.html">About</a>
     </nav>
@@ -90,6 +91,18 @@
       </div>
     </section>
 
+    <section class="wrap compare-section" id="compare">
+      <div class="section-heading">
+        <div><p class="kicker">SIDE-BY-SIDE ANALYSIS</p><h2>Compare operators</h2></div>
+        <p class="update-label">Select up to three operators from the list.</p>
+      </div>
+      <div class="compare-builder">
+        <div id="compare-slots" class="compare-slots"></div>
+        <button id="compare-button" class="primary-button compare-action" type="button" disabled>Compare selected</button>
+      </div>
+      <div id="compare-result" class="compare-result" aria-live="polite"></div>
+    </section>
+
     <section class="wrap change-section" id="changes">
       <div class="section-heading"><div><p class="kicker">CHANGE INTELLIGENCE</p><h2>Latest detected changes</h2></div></div>
       <div id="change-list" class="change-grid"></div>
@@ -108,12 +121,18 @@
   <footer>
     <div class="wrap footer-grid">
       <div><a class="brand footer-brand" href="#top"><span class="brand-mark">BI</span><span><strong>BetIntel</strong><small>Operator Intelligence</small></span></a><p>Independent monitoring of publicly visible information.</p></div>
-      <div><strong>Platform</strong><a href="#rankings">Rankings</a><a href="#changes">Changes</a><a href="methodology.html">Methodology</a></div>
+      <div><strong>Platform</strong><a href="#rankings">Rankings</a><a href="#changes">Changes</a>
+      <a href="#compare">Compare</a><a href="methodology.html">Methodology</a></div>
       <div><strong>Company</strong><a href="about.html">About</a><a href="contact.html">Contact</a></div>
       <div class="legal"><strong>Important</strong><p>18+ only. Information is provided for research and comparison. Gambling involves financial risk. Availability and rules vary by jurisdiction.</p></div>
     </div>
     <div class="wrap copyright">© <span id="year"></span> BetIntel. Data may be delayed or incomplete.</div>
   </footer>
+
+  <dialog id="history-dialog">
+    <button id="history-close" class="dialog-close" aria-label="Close">×</button>
+    <div id="history-content"></div>
+  </dialog>
 
   <dialog id="detail-dialog">
     <button id="dialog-close" class="dialog-close" aria-label="Close">×</button>

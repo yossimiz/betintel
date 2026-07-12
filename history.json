@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-12T15:00:00.000Z",
+  "operators": {
+    "888-casino": [
+      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"},
+      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"}
+    ],
+    "leovegas": [
+      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Public page loaded; offer wording requires manual review.","status":"needs-review"},
+      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"}
+    ],
+    "unibet": [
+      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"},
+      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"}
+    ],
+    "bet365": [
+      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"},
+      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Public page loaded; offer wording requires manual review.","status":"needs-review"}
+    ],
+    "mr-green": [
+      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"},
+      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"}
+    ],
+    "stake-com": [
+      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"},
+      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"}
+    ]
+  }
+}

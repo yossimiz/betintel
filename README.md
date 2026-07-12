@@ -1,28 +1,29 @@
-# BetIntel V2.0
+# BetIntel V2.1
 
-A static, product-style operator intelligence dashboard for GitHub Pages.
+Static GitHub Pages dashboard with automatic daily data updates.
 
-## Upload to GitHub
+## New in V2.1
 
-Upload the **contents** of this folder to the repository root. Keep the hidden `.github` directory.
+- Compare two or three operators side by side.
+- View stored public-offer history for every operator.
+- `bot.js` now appends changed records to `history.json`.
+- Daily workflow commits both `data.json` and `history.json`.
+- No npm, React, build step or lock file required.
 
 ## GitHub Pages
 
-Open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`.
-
-## Daily updater
-
-The workflow `.github/workflows/update-data.yml` runs `node bot.js` daily and commits `data.json` when it changes. No npm installation or lock file is required.
+Use **Settings → Pages → Deploy from a branch**, select `main` and `/ (root)`.
 
 ## Files
 
-- `index.html` — dashboard
-- `styles.css` — responsive design
-- `app.js` — search, filtering, detail dialog and data loading
-- `data.json` — current dataset
-- `bot.js` — scheduled updater
-- `methodology.html`, `about.html`, `contact.html` — supporting pages
+- `index.html` — dashboard structure
+- `styles.css` — visual design
+- `app.js` — search, filters, comparison and history
+- `data.json` — latest scan
+- `history.json` — stored historical records
+- `bot.js` — daily updater
+- `.github/workflows/update-data.yml` — scheduled GitHub Action
 
 ## Important
 
-Automated extraction is not independent verification. Review detected text before publishing it as accurate. Replace the placeholder email in `contact.html`.
+Automated text detection is not independent verification. Review records before treating them as accurate, current or available in a particular jurisdiction.
