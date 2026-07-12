@@ -1,13 +1,99 @@
 {
-  "lastUpdated": "2026-07-12T15:00:00.000Z",
-  "notice": "Automatically detected public text must be reviewed before being treated as verified.",
+  "lastUpdated": "2026-07-12T19:18:53.668Z",
+  "notice": "Offers can change and may depend on country, age and eligibility. Verify all offers on the operator website before publishing.",
   "operators": [
-    {"name":"888 Casino","url":"https://www.888casino.com/","bonus":"Check the official public page for the current offer.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
-    {"name":"LeoVegas","url":"https://www.leovegas.com/","bonus":"Check the official public page for the current offer.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
-    {"name":"Unibet","url":"https://www.unibet.com/","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable","checkedAt":"2026-07-12T15:00:00.000Z"},
-    {"name":"Bet365","url":"https://www.bet365.com/","bonus":"Public page loaded; offer wording requires manual review.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
-    {"name":"Mr Green","url":"https://www.mrgreen.com/","bonus":"Check the official public page for the current offer.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
-    {"name":"Stake.com","url":"https://stake.com/","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable","checkedAt":"2026-07-12T15:00:00.000Z"}
+    {
+      "name": "888 Casino",
+      "url": "https://www.888casino.com/",
+      "bonus": "Check the official site for the current welcome offer.",
+      "affiliateLink": "https://www.888casino.com/",
+      "status": "needs-review",
+      "checkedAt": "2026-07-12T19:18:50.792Z"
+    },
+    {
+      "name": "LeoVegas",
+      "url": "https://www.leovegas.com/",
+      "bonus": "Check the official site for the current welcome offer.",
+      "affiliateLink": "https://www.leovegas.com/",
+      "status": "needs-review",
+      "checkedAt": "2026-07-12T19:18:50.939Z"
+    },
+    {
+      "name": "Unibet",
+      "url": "https://www.unibet.com/",
+      "bonus": "welcome bonuses available on your country’s Unibet site",
+      "affiliateLink": "https://www.unibet.com/",
+      "status": "scraped",
+      "checkedAt": "2026-07-12T19:18:51.809Z"
+    },
+    {
+      "name": "Bet365",
+      "url": "https://www.bet365.com/",
+      "bonus": "Check the official site for the current welcome offer.",
+      "affiliateLink": "https://www.bet365.com/",
+      "status": "unavailable",
+      "checkedAt": "2026-07-12T19:18:51.889Z"
+    },
+    {
+      "name": "Mr Green",
+      "url": "https://www.mrgreen.com/",
+      "bonus": "welcome bonus and continuing with an array of exciting offers",
+      "affiliateLink": "https://www.mrgreen.com/",
+      "status": "scraped",
+      "checkedAt": "2026-07-12T19:18:53.601Z"
+    },
+    {
+      "name": "Stake.com",
+      "url": "https://stake.com/",
+      "bonus": "Check the official site for the current welcome offer.",
+      "affiliateLink": "https://stake.com/",
+      "status": "unavailable",
+      "checkedAt": "2026-07-12T19:18:53.668Z"
+    }
   ],
-  "changes": []
+  "changes": [
+    {
+      "operator": "888 Casino",
+      "type": "Public text changed",
+      "summary": "Check the official site for the current welcome offer.",
+      "previousSummary": "Check the official public page for the current offer.",
+      "detectedAt": "2026-07-12T19:18:50.792Z"
+    },
+    {
+      "operator": "LeoVegas",
+      "type": "Public text changed",
+      "summary": "Check the official site for the current welcome offer.",
+      "previousSummary": "Check the official public page for the current offer.",
+      "detectedAt": "2026-07-12T19:18:50.939Z"
+    },
+    {
+      "operator": "Unibet",
+      "type": "Status changed",
+      "summary": "welcome bonuses available on your country’s Unibet site",
+      "previousSummary": "No reliable public offer text detected during the latest scan.",
+      "detectedAt": "2026-07-12T19:18:51.809Z"
+    },
+    {
+      "operator": "Bet365",
+      "type": "Status changed",
+      "summary": "Check the official site for the current welcome offer.",
+      "previousSummary": "Public page loaded; offer wording requires manual review.",
+      "detectedAt": "2026-07-12T19:18:51.889Z"
+    },
+    {
+      "operator": "Mr Green",
+      "type": "Status changed",
+      "summary": "welcome bonus and continuing with an array of exciting offers",
+      "previousSummary": "Check the official public page for the current offer.",
+      "detectedAt": "2026-07-12T19:18:53.601Z"
+    },
+    {
+      "operator": "Stake.com",
+      "type": "Public text changed",
+      "summary": "Check the official site for the current welcome offer.",
+      "previousSummary": "No reliable public offer text detected during the latest scan.",
+      "detectedAt": "2026-07-12T19:18:53.668Z"
+    }
+  ],
+  "promoCodes": []
 }

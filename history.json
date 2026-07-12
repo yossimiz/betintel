@@ -1,29 +1,107 @@
 {
-  "generatedAt": "2026-07-12T15:00:00.000Z",
+  "generatedAt": "2026-07-12T19:18:53.668Z",
   "operators": {
     "888-casino": [
-      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"},
-      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"}
+      {
+        "checkedAt": "2026-07-10T15:00:00.000Z",
+        "bonus": "Check the official public page for the current offer.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T15:00:00.000Z",
+        "bonus": "Check the official public page for the current offer.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T19:18:50.792Z",
+        "bonus": "Check the official site for the current welcome offer.",
+        "status": "needs-review"
+      }
     ],
     "leovegas": [
-      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Public page loaded; offer wording requires manual review.","status":"needs-review"},
-      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"}
+      {
+        "checkedAt": "2026-07-10T15:00:00.000Z",
+        "bonus": "Public page loaded; offer wording requires manual review.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T15:00:00.000Z",
+        "bonus": "Check the official public page for the current offer.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T19:18:50.939Z",
+        "bonus": "Check the official site for the current welcome offer.",
+        "status": "needs-review"
+      }
     ],
     "unibet": [
-      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"},
-      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"}
+      {
+        "checkedAt": "2026-07-10T15:00:00.000Z",
+        "bonus": "No reliable public offer text detected during the latest scan.",
+        "status": "unavailable"
+      },
+      {
+        "checkedAt": "2026-07-12T15:00:00.000Z",
+        "bonus": "No reliable public offer text detected during the latest scan.",
+        "status": "unavailable"
+      },
+      {
+        "checkedAt": "2026-07-12T19:18:51.809Z",
+        "bonus": "welcome bonuses available on your country’s Unibet site",
+        "status": "scraped"
+      }
     ],
     "bet365": [
-      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"},
-      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Public page loaded; offer wording requires manual review.","status":"needs-review"}
+      {
+        "checkedAt": "2026-07-10T15:00:00.000Z",
+        "bonus": "Check the official public page for the current offer.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T15:00:00.000Z",
+        "bonus": "Public page loaded; offer wording requires manual review.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T19:18:51.889Z",
+        "bonus": "Check the official site for the current welcome offer.",
+        "status": "unavailable"
+      }
     ],
     "mr-green": [
-      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"},
-      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"Check the official public page for the current offer.","status":"needs-review"}
+      {
+        "checkedAt": "2026-07-10T15:00:00.000Z",
+        "bonus": "Check the official public page for the current offer.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T15:00:00.000Z",
+        "bonus": "Check the official public page for the current offer.",
+        "status": "needs-review"
+      },
+      {
+        "checkedAt": "2026-07-12T19:18:53.601Z",
+        "bonus": "welcome bonus and continuing with an array of exciting offers",
+        "status": "scraped"
+      }
     ],
     "stake-com": [
-      {"checkedAt":"2026-07-10T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"},
-      {"checkedAt":"2026-07-12T15:00:00.000Z","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable"}
+      {
+        "checkedAt": "2026-07-10T15:00:00.000Z",
+        "bonus": "No reliable public offer text detected during the latest scan.",
+        "status": "unavailable"
+      },
+      {
+        "checkedAt": "2026-07-12T15:00:00.000Z",
+        "bonus": "No reliable public offer text detected during the latest scan.",
+        "status": "unavailable"
+      },
+      {
+        "checkedAt": "2026-07-12T19:18:53.668Z",
+        "bonus": "Check the official site for the current welcome offer.",
+        "status": "unavailable"
+      }
     ]
   }
 }
