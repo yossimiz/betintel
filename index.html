@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="BetIntel is an independent data dashboard monitoring publicly visible operator information, verification status and changes.">
+  <meta name="theme-color" content="#070b14">
+  <title>BetIntel — Operator Intelligence</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="BetIntel home">
+      <span class="brand-mark">BI</span>
+      <span><strong>BetIntel</strong><small>Operator Intelligence</small></span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a class="active" href="#rankings">Rankings</a>
+      <a href="#changes">Changes</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="about.html">About</a>
+    </nav>
+    <button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle theme">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="kicker"><span></span> INDEPENDENT DATA MONITOR</p>
+        <h1>Market intelligence for online operators.</h1>
+        <p>Track public offer text, verification status and daily changes in one fast, searchable dashboard. Every automated result is clearly labelled.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#rankings">Explore operators</a>
+          <a class="secondary-button" href="methodology.html">See methodology</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="pulse-row"><span class="pulse"></span><span>Live data status</span><strong id="system-status">Loading</strong></div>
+        <div class="big-stat"><span>Last scan</span><strong id="hero-updated">—</strong></div>
+        <div class="mini-grid">
+          <div><span>Operators</span><strong id="hero-operators">0</strong></div>
+          <div><span>Changes</span><strong id="hero-changes">0</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Platform status">
+      <div class="ticker-track">
+        <span>PUBLIC DATA</span><i></i><span>AUTOMATED DAILY SCANS</span><i></i><span>MANUAL VERIFICATION LABELS</span><i></i><span>NO INVENTED SCORES</span><i></i><span>18+ INFORMATION ONLY</span>
+      </div>
+    </section>
+
+    <section class="wrap dashboard" id="rankings">
+      <div class="section-heading">
+        <div><p class="kicker">MARKET OVERVIEW</p><h2>Operator monitor</h2></div>
+        <p id="last-updated" class="update-label">Loading latest dataset…</p>
+      </div>
+
+      <div class="metric-grid">
+        <article class="metric"><span>Operators monitored</span><strong id="metric-total">0</strong><small>in current dataset</small></article>
+        <article class="metric"><span>Detected text</span><strong id="metric-detected">0</strong><small>automated extraction</small></article>
+        <article class="metric"><span>Needs review</span><strong id="metric-review">0</strong><small>manual check required</small></article>
+        <article class="metric"><span>Unavailable</span><strong id="metric-unavailable">0</strong><small>blocked or timed out</small></article>
+      </div>
+
+      <div class="controls">
+        <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Search operators or detected text…" autocomplete="off"></label>
+        <select id="status-filter" aria-label="Filter by status">
+          <option value="all">All statuses</option>
+          <option value="scraped">Detected</option>
+          <option value="needs-review">Needs review</option>
+          <option value="unavailable">Unavailable</option>
+        </select>
+        <select id="sort-select" aria-label="Sort operators">
+          <option value="name">Sort: Name</option>
+          <option value="status">Sort: Status</option>
+          <option value="recent">Sort: Most recent</option>
+        </select>
+      </div>
+
+      <div class="table-shell">
+        <div class="table-head">
+          <span>Rank / Operator</span><span>Detected public text</span><span>Verification</span><span>Checked</span><span>Details</span>
+        </div>
+        <div id="operator-list" class="operator-list" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden><strong>No matching operators</strong><span>Try a different search or filter.</span></div>
+      </div>
+    </section>
+
+    <section class="wrap change-section" id="changes">
+      <div class="section-heading"><div><p class="kicker">CHANGE INTELLIGENCE</p><h2>Latest detected changes</h2></div></div>
+      <div id="change-list" class="change-grid"></div>
+    </section>
+
+    <section class="wrap trust-strip">
+      <div><p class="kicker">DATA INTEGRITY</p><h2>Built around transparent verification.</h2></div>
+      <div class="trust-points">
+        <p><strong>01</strong><span>Automated text is never presented as independently verified.</span></p>
+        <p><strong>02</strong><span>Each record includes a timestamp and clear status.</span></p>
+        <p><strong>03</strong><span>Unavailable pages remain visible instead of being replaced by invented claims.</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div><a class="brand footer-brand" href="#top"><span class="brand-mark">BI</span><span><strong>BetIntel</strong><small>Operator Intelligence</small></span></a><p>Independent monitoring of publicly visible information.</p></div>
+      <div><strong>Platform</strong><a href="#rankings">Rankings</a><a href="#changes">Changes</a><a href="methodology.html">Methodology</a></div>
+      <div><strong>Company</strong><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+      <div class="legal"><strong>Important</strong><p>18+ only. Information is provided for research and comparison. Gambling involves financial risk. Availability and rules vary by jurisdiction.</p></div>
+    </div>
+    <div class="wrap copyright">© <span id="year"></span> BetIntel. Data may be delayed or incomplete.</div>
+  </footer>
+
+  <dialog id="detail-dialog">
+    <button id="dialog-close" class="dialog-close" aria-label="Close">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+</body>
+</html>

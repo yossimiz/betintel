@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "2026-07-12T15:00:00.000Z",
+  "notice": "Automatically detected public text must be reviewed before being treated as verified.",
+  "operators": [
+    {"name":"888 Casino","url":"https://www.888casino.com/","bonus":"Check the official public page for the current offer.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
+    {"name":"LeoVegas","url":"https://www.leovegas.com/","bonus":"Check the official public page for the current offer.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
+    {"name":"Unibet","url":"https://www.unibet.com/","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable","checkedAt":"2026-07-12T15:00:00.000Z"},
+    {"name":"Bet365","url":"https://www.bet365.com/","bonus":"Public page loaded; offer wording requires manual review.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
+    {"name":"Mr Green","url":"https://www.mrgreen.com/","bonus":"Check the official public page for the current offer.","status":"needs-review","checkedAt":"2026-07-12T15:00:00.000Z"},
+    {"name":"Stake.com","url":"https://stake.com/","bonus":"No reliable public offer text detected during the latest scan.","status":"unavailable","checkedAt":"2026-07-12T15:00:00.000Z"}
+  ],
+  "changes": []
+}
