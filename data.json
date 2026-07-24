@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T08:43:26.672Z",
+  "lastUpdated": "2026-07-24T08:40:06.695Z",
   "notice": "Offers can change and may depend on country, age and eligibility. Verify all offers on the operator website before publishing.",
   "operators": [
     {
@@ -8,7 +8,7 @@
       "bonus": "Check the official site for the current welcome offer.",
       "affiliateLink": "https://www.888casino.com/",
       "status": "needs-review",
-      "checkedAt": "2026-07-23T08:43:23.089Z"
+      "checkedAt": "2026-07-24T08:40:04.646Z"
     },
     {
       "name": "LeoVegas",
@@ -16,7 +16,7 @@
       "bonus": "Check the official site for the current welcome offer.",
       "affiliateLink": "https://www.leovegas.com/",
       "status": "needs-review",
-      "checkedAt": "2026-07-23T08:43:23.173Z"
+      "checkedAt": "2026-07-24T08:40:04.756Z"
     },
     {
       "name": "Unibet",
@@ -24,7 +24,7 @@
       "bonus": "welcome bonuses available on your country’s Unibet site",
       "affiliateLink": "https://www.unibet.com/",
       "status": "scraped",
-      "checkedAt": "2026-07-23T08:43:24.158Z"
+      "checkedAt": "2026-07-24T08:40:05.471Z"
     },
     {
       "name": "Bet365",
@@ -32,7 +32,7 @@
       "bonus": "Check the official site for the current welcome offer.",
       "affiliateLink": "https://www.bet365.com/",
       "status": "unavailable",
-      "checkedAt": "2026-07-23T08:43:24.373Z"
+      "checkedAt": "2026-07-24T08:40:05.531Z"
     },
     {
       "name": "Mr Green",
@@ -40,7 +40,7 @@
       "bonus": "welcome bonus and continuing with an array of exciting offers",
       "affiliateLink": "https://www.mrgreen.com/",
       "status": "scraped",
-      "checkedAt": "2026-07-23T08:43:26.532Z"
+      "checkedAt": "2026-07-24T08:40:06.636Z"
     },
     {
       "name": "Stake.com",
@@ -48,7 +48,7 @@
       "bonus": "Check the official site for the current welcome offer.",
       "affiliateLink": "https://stake.com/",
       "status": "unavailable",
-      "checkedAt": "2026-07-23T08:43:26.671Z"
+      "checkedAt": "2026-07-24T08:40:06.695Z"
     }
   ],
   "changes": [
